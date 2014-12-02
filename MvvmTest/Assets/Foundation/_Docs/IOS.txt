@@ -1,0 +1,7 @@
+﻿****************************
+Unity Foundation IOS Player Options
+****************************
+
+Make sure your IOS build options has the following setting
+
+AOT Compilation Option = nimt-trampolines=2048

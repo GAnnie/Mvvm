@@ -1,0 +1,56 @@
+Lobby.AccountWelcome,"Hoş geldiniz, {0}"
+Lobby.QuitGameLabel,Oyundan Çık
+Lobby.SignOutLabel,Sign Out
+Lobby.PortraitWebTitle, Web'den yükleme 
+Lobby.PortraitWebSubtitle, Geçerli bir URL girin 
+Lobby.Leaderboard, Lider kurulu
+Lobby.ProfilesSearchTitle, Oyuncu Arama
+Lobby.ProfilesSearchSubTitle, Giriş oyuncunun adı
+Lobby.HasConnected,{0} bağlandı
+Lobby.HasDisconnected,{0} olan bağlantısı kesildi
+Lobby.SignUpFailed,Signup failed
+Lobby.NameInputTitle,Kullanıcı adı
+Lobby.NameInputSubTitle,Giriş takma adın.
+Lobby.OfflineMode,Play Offline
+Lobby.LoadFailed,Bağlantı Hatası
+Lobby.AccountLoadFailed,Hata Ġmza
+Lobby.ProfileLoadFailed,Error Loading Profili
+Lobby.LoadFailedSub,Veritabanına bağlanırken bir hata oluştu.
+Lobby.Retry,Yeniden dene
+Lobby.Cancel,İptal
+Lobby.Accept,Kabul
+Lobby.Reject,Reddet
+Lobby.NameInvalid,Kullanıcı adı geçersiz 
+Lobby.SoundLabel,Ses Seviyesi
+Lobby.MusicLabel,Müzik Ses
+Lobby.UIVolumeLabel,UI Ses
+Lobby.UpdateTitle,Link / Güncellemek Hesabı
+Lobby.UpdateLabel,Güncelleme
+Lobby.CensorLabel,Sansür
+Lobby.CensorTitle,Filtre Kötü Dil
+Lobby.InNetworkError,Zaten ağda 
+Lobby.ConnectionFailure,Bağlantı Hatası
+Lobby.MasterServerFailure,MasterServer Arızası
+Lobby.PortInUse,Ağ bağlantı noktası kullanımda.
+Lobby.HostFull,Ana dolu.
+Lobby.ConnectionLostText,Bağlantı Koptu
+Lobby.ConnectionLostExplaination,Ana oyun kesti 
+Lobby.TimeoutError,Zaman aşımı hatası. Tekrar deneyin.
+Lobby.CanNotHost,Barındırabilir.
+Lobby.NoGamesFound,Bir oyuna katılmak bulamadı 
+Lobby.RegistrationFailedGameName,Kayıt Başarısız : Geçersiz GameName
+Lobby.RegistrationFailedGameType,Kayıt Başarısız : Geçersiz GameType
+Lobby.RegistrationFailedNoServer,Kayıt : Hayır, Sunucu Başarısız 
+Lobby.Connected,Bağlı Ağa 
+Lobby.Disconnected,Disconnected
+Lobby.Offline,Çevrimdışı Modu. Bağlanamadı.
+Lobby.Unauthenticated,Değil imzalandı. Erişim engellendi.
+Lobby.UpdateSuccess,Hesap güncellendi. Teşekkür ederim !
+Lobby.ServerFull,Server Dolu. Birazdan tekrar deneyin.
+Lobby.NetworkFull,Ağ Dolu. Birazdan tekrar deneyin.
+Lobby.CreateGameFailed,Oyun oluşturulamadı. 
+Lobby.JoinGameFailed,Game.katılamadı. 
+Lobby.SecurityError,Güvenlik İhlali. Erişim engellendi.
+Lobby.InvalidRegion,Geçersiz Bölge
+Lobby.InvalidAuthentication,Geçersiz Kimlik Doğrulama. Erişim engellendi.
+Lobby.InternalError,İç Hata

@@ -1,0 +1,56 @@
+Lobby.AccountWelcome,"Bem-vindo, {0}"
+Lobby.QuitGameLabel,Sair Do Jogo
+Lobby.SignOutLabel,Terminar Sessão
+Lobby.PortraitWebTitle, Load from Web
+Lobby.PortraitWebSubtitle, Digite uma URL válida
+Lobby.Leaderboard, Líder do conselho
+Lobby.ProfilesSearchTitle, Leitor De Pesquisa
+Lobby.ProfilesSearchSubTitle, De entrada o nome do jogador
+Lobby.HasConnected,{0} tem conectado
+Lobby.HasDisconnected,{0} foi desconectado
+Lobby.SignUpFailed,Inscrição falha
+Lobby.NameInputTitle,Nome de usuário
+Lobby.NameInputSubTitle,Introduza o seu pseudónimo.
+Lobby.OfflineMode,Jogar Offline
+Lobby.LoadFailed,Erro De Conexão
+Lobby.AccountLoadFailed,Assinatura De Erro
+Lobby.ProfileLoadFailed,Erro Ao Carregar O Perfil De
+Lobby.LoadFailedSub,Houve um erro ao conectar ao banco de dados.
+Lobby.Retry,Repetição
+Lobby.Cancel,Cancelar
+Lobby.Accept,Aceitar
+Lobby.Reject,Rejeitar
+Lobby.NameInvalid,Nome de usuário inválido
+Lobby.SoundLabel,O Volume Do Som
+Lobby.MusicLabel,O Volume Da Música
+Lobby.UIVolumeLabel,UI Volume
+Lobby.UpdateTitle,Link / Atualização De Conta
+Lobby.UpdateLabel,Atualização
+Lobby.CensorLabel,Censura
+Lobby.CensorTitle,Filtro De Linguagem Imprópria
+Lobby.InNetworkError,Já em uma rede
+Lobby.ConnectionFailure,Falha De Conexão
+Lobby.MasterServerFailure,MasterServer Falha
+Lobby.PortInUse,Porta de rede está em uso.
+Lobby.HostFull,Host é completo.
+Lobby.ConnectionLostText,Ligação Perdida
+Lobby.ConnectionLostExplaination,O anfitrião foi desconectado do jogo
+Lobby.TimeoutError,Erro de tempo de espera. Tente novamente.
+Lobby.CanNotHost,Não pode host.
+Lobby.NoGamesFound,Não poderia encontrar um jogo para se juntar a
+Lobby.RegistrationFailedGameName,O Registo Falhou : Erro De GameName
+Lobby.RegistrationFailedGameType,O Registo Falhou : Erro De Tipo De Jogo
+Lobby.RegistrationFailedNoServer,Falha De Registro : Nenhum Servidor
+Lobby.Connected,Conectado a Rede
+Lobby.Disconnected,Desligado
+Lobby.Offline,O Modo Offline. Não pôde se conectar.
+Lobby.Unauthenticated,Não assinado. Acesso negado.
+Lobby.UpdateSuccess,Conta atualizada. Obrigado !
+Lobby.ServerFull,O Servidor Está Cheio. Tente novamente daqui a pouco.
+Lobby.NetworkFull,A Rede Está Cheia. Tente novamente daqui a pouco.
+Lobby.CreateGameFailed,Falha ao criar o jogo.
+Lobby.JoinGameFailed,Falha ao entrar no jogo.
+Lobby.SecurityError,Violação De Segurança. Acesso negado.
+Lobby.InvalidRegion,Região Inválido
+Lobby.InvalidAuthentication,Autenticação Inválido. Acesso negado.
+Lobby.InternalError,Erro Interno

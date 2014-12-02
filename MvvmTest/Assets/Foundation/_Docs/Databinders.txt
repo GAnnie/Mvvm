@@ -1,0 +1,80 @@
+﻿*****************************
+Unity3d Foundation : Databinding
+*****************************
+
+*****************************
+# Observables
+
+Observables are a strategy for letting components observe change in other components.
+Foundation uses this pattern for databinding. Simply put, when a model is constructed using
+the observable pattern, our views can subscribe to changes in the model and update themselves.
+This eliminates the need to poll for changes in an update loop.
+
+It is recommended that you inherit your monobehaviours from ObservableBehaviour and your clr
+objects from ObservableObject. These classes implement the IObservableModel interface for you
+and include a number of helper methods for quickly publishing changes to your views.
+
+# Example Model
+
+Here is an example model with a single observable property. when the property changes
+the view (or any other listener) will receive the change event and have an opertunity
+to update itself.
+
+
+public class MyModel : ObservableObject {
+
+        private int _myProperty;
+        public int MyProperty
+        {
+            get { return _myProperty; }
+            set
+            {
+				// Prevent Stack Overflow in two way binding scenarios
+                if (_myProperty == value)
+                    return;
+
+                _myProperty = value;
+
+				// Notify Listeners
+                NotifyProperty("MyProperty", value);
+            }
+        }
+}
+
+
+*****************************
+# Binding Context
+
+The binding context is responsible for gluing your model to your view. Once set
+child binders will update their select lists with properties / methods from the
+target view model.
+
+This script sits at the root of your UI and operates in one of three modes.
+
+	- MonoBinding
+	Viewmodel is a monobehaviour (or observable behavior. Drag and drop the behavior 
+	into the editor field to bind to it.
+
+	- MockBinding
+	Viewmodel is a late bound. Use this option when you would like to set the datatype
+	for child binders while not actually setting the model instance. Example uses
+	include list controls where you may know the type of the list item but the actual
+	item instance is set at run time.
+
+	- Property Binding (Hierarchy Binding)
+	This allows you to index into a model within another model. For instance MyModel.MyUser.MyName
+	where MyModel is the parent viewmodel, MyUser is a child model and MyName is a property of
+	the child most model.
+
+*****************************
+# Binders
+
+Binders sit underneath a binding context. When the binding context is set the binders will update
+their select lists with properties and methods from the model.
+
+There are a number of binders including InputFieldBinder, ButtonBinder, ListBinder and ImageBinders.
+I believe I have most major controls. If you need a custom binder inherit from BinderBase. If you
+feel that I have neglected a non specialized binder, let me know and I will make it.
+
+Using a binder is straight forward. Just drag and drop the script onto the control that it will
+bind to. For instance if you want databinding on an Input Field include the Input Field binder as well.

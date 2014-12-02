@@ -1,0 +1,40 @@
+LobbyViews.Confirm,Potwierdzić
+LobbyViews.Reject,Odrzucić
+LobbyViews.WelcomeTitle,Witamy
+LobbyViews.SignIn,Znak W
+LobbyViews.SignUp,Zapisz się
+LobbyViews.Recover,Odzyskać Swoje Konto
+LobbyViews.Busy,Pobieranie...
+LobbyViews.Username,Username
+LobbyViews.Email,Adres
+LobbyViews.Password,Hasło
+LobbyViews.Token,Uchwyt
+LobbyViews.Update,Odświeżanie Konta
+LobbyViews.Submit,Złożyć
+LobbyViews.Back,Temu
+LobbyViews.Cancel,Anuluj
+LobbyViews.GoGetToken,Weryfikacji token został wysłany do ciebie pocztą.
+LobbyViews.SkipSignup,Pomijanie Signup
+LobbyViews.PortraitTitle,Wybierz Swój Portret
+LobbyViews.LoadFromWeb,Pobrać Z Sieci
+LobbyViews.Gravatar,Gravatary
+LobbyViews.Options,Opcje
+LobbyViews.Levels,Wybór Poziomu
+LobbyViews.RandomLevel,Przypadkowy Poziomu
+LobbyViews.Search,Wyszukiwanie
+LobbyViews.Leaderboard,Tabela liderów
+LobbyViews.Multiplayer,Gry Online
+LobbyViews.StartHost,Start Witryny
+LobbyViews.Disconnect,Odłącz
+LobbyViews.FindGame,Znaleźć Gry
+LobbyViews.Self,Parkowanie
+LobbyViews.Host,Host
+LobbyViews.NoGames,No Games Found. Idź do start !
+LobbyViews.Offline,Tryb Offline. Nie istnieją dane.
+LobbyViews.Continue,Kontynuuj
+LobbyViews.RestartLevel,RestartLevel
+LobbyViews.QuitLevel,QuitLevel
+LobbyViews.ConnectionLost,Connection Lost
+LobbyViews.ConnectionLostInfo,Połączenie serwer gry został stracony.
+LobbyViews.Migrating,Migracja na nowy serwer...
+LobbyViews.ReturnToLobby,Powrót w lobby

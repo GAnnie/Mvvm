@@ -1,0 +1,56 @@
+Lobby.AccountWelcome,"Welcome, {0}"
+Lobby.QuitGameLabel,Esci Dal Gioco
+Lobby.SignOutLabel,Segno
+Lobby.PortraitWebTitle, Carico dal Web
+Lobby.PortraitWebSubtitle, Immettere un URL valido
+Lobby.Leaderboard, Leader board
+Lobby.ProfilesSearchTitle, Ricerca Giocatore
+Lobby.ProfilesSearchSubTitle, In ingresso il nome del giocatore
+Lobby.HasConnected,{0} è collegato
+Lobby.HasDisconnected,{0} è disconnesso
+Lobby.SignUpFailed,Iscrizione riuscita
+Lobby.NameInputTitle,Nome utente
+Lobby.NameInputSubTitle,Inserisci il tuo alias.
+Lobby.OfflineMode,Giocare Offline
+Lobby.LoadFailed,Errore Di Connessione
+Lobby.AccountLoadFailed,Errore Di Firma In
+Lobby.ProfileLoadFailed,Errore Nel Caricamento Del Profilo
+Lobby.LoadFailedSub,C'è stato un errore di connessione al database.
+Lobby.Retry,Riprova
+Lobby.Cancel,Annulla
+Lobby.Accept,Accetta
+Lobby.Reject,Rifiutare
+Lobby.NameInvalid,Nome utente non è valido
+Lobby.SoundLabel,Volume Del Suono
+Lobby.MusicLabel,Il Volume Della Musica
+Lobby.UIVolumeLabel,UI Volume
+Lobby.UpdateTitle,Link / Aggiornamento Di Account
+Lobby.UpdateLabel,Aggiornamento
+Lobby.CensorLabel,Il censore
+Lobby.CensorTitle,Filtro Parolacce
+Lobby.InNetworkError,Già in rete
+Lobby.ConnectionFailure,Errore Di Connessione
+Lobby.MasterServerFailure,MasterServer Fallimento
+Lobby.PortInUse,La rete della porta è in uso.
+Lobby.HostFull,Host è piena.
+Lobby.ConnectionLostText,Connessione Persa
+Lobby.ConnectionLostExplaination,L'host ha interrotto il gioco
+Lobby.TimeoutError,Errore di Timeout. Prova di nuovo.
+Lobby.CanNotHost,Non posso ospitare.
+Lobby.NoGamesFound,Non riusciva a trovare un gioco per partecipare
+Lobby.RegistrationFailedGameName,Registration Failed : Invalid GameName
+Lobby.RegistrationFailedGameType,Registration Failed : Invalid Tipo Di Gioco
+Lobby.RegistrationFailedNoServer,Registrazione Fallita : No Server
+Lobby.Connected,Collegati alla Rete
+Lobby.Disconnected,Disconnesso
+Lobby.Offline,Modalità Offline. Non è possibile connettersi.
+Lobby.Unauthenticated,Non firmato. Accesso negato.
+Lobby.UpdateSuccess,Conto aggiornato. Grazie !
+Lobby.ServerFull,Server È Piena. Riprovare in un po'.
+Lobby.NetworkFull,La Rete È Piena. Riprovare in un po'.
+Lobby.CreateGameFailed,Non è riuscito a creare gioco.
+Lobby.JoinGameFailed,Non è riuscito a entrare in gioco.
+Lobby.SecurityError,Violazione Della Sicurezza. Accesso negato.
+Lobby.InvalidRegion,Non Valido Regione
+Lobby.InvalidAuthentication,Autenticazione Non Valida. Accesso negato.
+Lobby.InternalError,Errore Interno

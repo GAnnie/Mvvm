@@ -1,0 +1,56 @@
+Lobby.AccountWelcome,"Bienvenido, {0}"
+Lobby.QuitGameLabel,Salir Del Juego
+Lobby.SignOutLabel,Señal De Salida
+Lobby.PortraitWebTitle, La carga de la Web
+Lobby.PortraitWebSubtitle, Escriba una dirección URL válida
+Lobby.Leaderboard, El líder de la junta
+Lobby.ProfilesSearchTitle, Reproductor De Búsqueda
+Lobby.ProfilesSearchSubTitle, De entrada el nombre del jugador
+Lobby.HasConnected,{0} se ha conectado
+Lobby.HasDisconnected,{0} se ha desconectado
+Lobby.SignUpFailed,De registro de error
+Lobby.NameInputTitle,Nombre de usuario
+Lobby.NameInputSubTitle,Introduzca su alias.
+Lobby.OfflineMode,Jugar Fuera De Línea
+Lobby.LoadFailed,Error De Conexión
+Lobby.AccountLoadFailed,Error En La Firma
+Lobby.ProfileLoadFailed,Error Al Cargar El Perfil
+Lobby.LoadFailedSub,Hubo un error al conectar a la base de datos.
+Lobby.Retry,Reintentar
+Lobby.Cancel,Cancelar
+Lobby.Accept,Aceptar
+Lobby.Reject,Rechazar
+Lobby.NameInvalid,Nombre de usuario no es válido
+Lobby.SoundLabel,El Volumen De Sonido
+Lobby.MusicLabel,El Volumen De La Música
+Lobby.UIVolumeLabel,Interfaz de usuario de Volumen
+Lobby.UpdateTitle,Enlace / Actualización De La Cuenta
+Lobby.UpdateLabel,Actualización
+Lobby.CensorLabel,Censurar
+Lobby.CensorTitle,Filtro De Malas Palabras
+Lobby.InNetworkError,Ya en una red
+Lobby.ConnectionFailure,Error De Conexión
+Lobby.MasterServerFailure,MasterServer Fracaso
+Lobby.PortInUse,Puerto de red está en uso.
+Lobby.HostFull,Host es completa.
+Lobby.ConnectionLostText,Se Ha Perdido La Conexión
+Lobby.ConnectionLostExplaination,La acogida ha desconectado el juego
+Lobby.TimeoutError,Error de tiempo de espera. Inténtelo de nuevo.
+Lobby.CanNotHost,No puede anfitrión.
+Lobby.NoGamesFound,No podría encontrar un juego para unirse a
+Lobby.RegistrationFailedGameName,Registro Failed : Invalid Nombredejuego
+Lobby.RegistrationFailedGameType,Registro Failed : Invalid Modos De Juego
+Lobby.RegistrationFailedNoServer,Error En El Registro : No Servidor
+Lobby.Connected,Conectado a la Red
+Lobby.Disconnected,Desconectado
+Lobby.Offline,El Modo Sin Conexión. No se pudo conectar.
+Lobby.Unauthenticated,No has iniciado sesión. Acceso denegado.
+Lobby.UpdateSuccess,Cuenta actualizada. Gracias !
+Lobby.ServerFull,El Servidor Está Lleno. Inténtelo de nuevo un poco.
+Lobby.NetworkFull,La Red Está Llena. Inténtelo de nuevo un poco.
+Lobby.CreateGameFailed,No se pudo crear el juego.
+Lobby.JoinGameFailed,No se pudo unir al juego.
+Lobby.SecurityError,Infracción De Seguridad. Acceso denegado.
+Lobby.InvalidRegion,No Válido Región
+Lobby.InvalidAuthentication,No Válido De Autenticación. Acceso denegado.
+Lobby.InternalError,Error Interno

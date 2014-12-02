@@ -1,0 +1,44 @@
+# Foundation HttpClient (v3.0)
+
+Nicholas Ventimiglia | AvariceOnline.com
+
+## Task Driven Restfull HTTP Client
+
+A easy to use cross platfrom HTTPClient that returns easy to consume tasks.
+
+ - Supports GET, POST, PUT, DELETE
+ - Supports Headers
+ - Easy to use
+ - Runs on a background thread.
+ - Returns a HTTPState result
+ - Read directly from the HTTPResponse object, or just read the String result
+ - IOS / Android Free OK
+ 
+## Example Usage
+
+```c#
+	
+	// Like WWW, Use a coroutine	
+	IEnumerator HowToUse()
+	{
+		// make a client
+		var client = new HttpServiceClient();
+
+		// configure
+		client.Accept = "application/json";
+		...
+
+		// make request. 
+		var task = client.GetAsync("http://www.mywebsite.com");
+
+		// wait for it
+        yield return StartCoroutine(task.WaitRoutine());
+
+		if(task.IsFaulted)
+			Debug.LogException(task.Exception)
+
+		// Read the content of the response
+		var result = task.Result;
+	}
+	       
+```

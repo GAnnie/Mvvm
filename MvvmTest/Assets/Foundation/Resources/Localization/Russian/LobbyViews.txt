@@ -1,0 +1,40 @@
+LobbyViews.Confirm,Подтвердить
+LobbyViews.Reject,Отклонить
+LobbyViews.WelcomeTitle,Добро пожаловать
+LobbyViews.SignIn,Знак В
+LobbyViews.SignUp,Подписаться
+LobbyViews.Recover,Восстановить Аккаунт
+LobbyViews.Busy,Загрузка...
+LobbyViews.Username,Username
+LobbyViews.Email,Адрес
+LobbyViews.Password,Пароль
+LobbyViews.Token,Маркер
+LobbyViews.Update,Обновление Учетной Записи
+LobbyViews.Submit,Подать
+LobbyViews.Back,Назад
+LobbyViews.Cancel,Отмена
+LobbyViews.GoGetToken,Проверки маркер был выслан вам по почте.
+LobbyViews.SkipSignup,Пропустить Signup
+LobbyViews.PortraitTitle,Выберите Ваш Портрет
+LobbyViews.LoadFromWeb,Загрузить Из Веб
+LobbyViews.Gravatar,Gravatar
+LobbyViews.Options,Варианты
+LobbyViews.Levels,Выбор Уровня
+LobbyViews.RandomLevel,Случайные Уровня
+LobbyViews.Search,Поиск
+LobbyViews.Leaderboard,Таблица лидеров
+LobbyViews.Multiplayer,Играть Онлайн
+LobbyViews.StartHost,Пуск Узла
+LobbyViews.Disconnect,Отсоедините
+LobbyViews.FindGame,Найти Игры
+LobbyViews.Self,Самостоятельная
+LobbyViews.Host,Хост
+LobbyViews.NoGames,No Games Found. Зайдите в пуск !
+LobbyViews.Offline,Автономный Режим. Не имеются данные.
+LobbyViews.Continue,Продолжить
+LobbyViews.RestartLevel,RestartLevel
+LobbyViews.QuitLevel,QuitLevel
+LobbyViews.ConnectionLost,Connection Lost
+LobbyViews.ConnectionLostInfo,Подключение к игровой сервер был потерян.
+LobbyViews.Migrating,Миграция на новый хост...
+LobbyViews.ReturnToLobby,Вернуться в лобби

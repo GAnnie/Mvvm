@@ -1,0 +1,40 @@
+LobbyViews.Confirm,Підтвердити
+LobbyViews.Reject,Відхилити
+LobbyViews.WelcomeTitle,Ласкаво просимо
+LobbyViews.SignIn,Знак В
+LobbyViews.SignUp,Підписатися
+LobbyViews.Recover,Відновити Обліковий Запис
+LobbyViews.Busy,Завантаження...
+LobbyViews.Username,Username
+LobbyViews.Email,Адреса
+LobbyViews.Password,Пароль
+LobbyViews.Token,Маркер
+LobbyViews.Update,Оновлення Облікового Запису
+LobbyViews.Submit,Подати
+LobbyViews.Back,Тому
+LobbyViews.Cancel,Скасування
+LobbyViews.GoGetToken,Перевірки маркер був висланий вам поштою.
+LobbyViews.SkipSignup,Пропустити Signup
+LobbyViews.PortraitTitle,Виберіть Ваш Портрет
+LobbyViews.LoadFromWeb,Завантажити З Веб
+LobbyViews.Gravatar,Gravatar
+LobbyViews.Options,Варіанти
+LobbyViews.Levels,Вибір Рівня
+LobbyViews.RandomLevel,Випадкові Рівня
+LobbyViews.Search,Пошук
+LobbyViews.Leaderboard,Таблиця лідерів
+LobbyViews.Multiplayer,Грати Онлайн
+LobbyViews.StartHost,Пуск Вузла
+LobbyViews.Disconnect,Від'єднайте
+LobbyViews.FindGame,Знайти Ігри
+LobbyViews.Self,Самостійна
+LobbyViews.Host,Хост
+LobbyViews.NoGames,No Games Found. Зайдіть в пуск !
+LobbyViews.Offline,Автономний Режим. Не маються дані.
+LobbyViews.Continue,Продовжити
+LobbyViews.RestartLevel,RestartLevel
+LobbyViews.QuitLevel,QuitLevel
+LobbyViews.ConnectionLost,Connection Lost
+LobbyViews.ConnectionLostInfo,Підключення до ігровий сервер був втрачений.
+LobbyViews.Migrating,Міграція на новий хост...
+LobbyViews.ReturnToLobby,Повернутися в лобі

@@ -1,0 +1,75 @@
+*****************************
+Unity3d Foundation : Localization System
+*****************************
+
+The localization service provides translation of UI elements and strings on demand.
+
+- It supports csv format
+- It paritions languages by folder : ie : Resources/Localization/English
+- It supports multiple files : ie : Resources/Localization/English/AuthView.csv
+- Translate strings by asking for the key. LocalizationService.Instance.Get("key");
+- LabelBinders are in the UI library.  
+- Change language on demand. If a language changes the Localizer publishes itself as a message.
+	- [Subscribe]
+	- void OnLanguageChanged(Localizer obj){};
+
+	
+NOTE : Localized Label is located in the nGUI or uGUI folder (since it is technically UI)
+
+
+*****************************
+Config
+*****************************
+- Configuration File located in /Assets/Foundation/Resources/LocalizationConfig.txt
+- Add languages to the file as needed
+- Add a "Default" column for the default language
+
+		// ie :
+		// English,Default
+		// Spanish
+		// German
+		
+- Add Localized CSV files to
+	/Assets/Foundation/Resources/Localization/{language}/{file}.txt
+
+	// ie :
+	// Cat, Gato
+	// Dog, Perro
+	// Beer, Cervesa
+
+
+*****************************
+Static Text Usage
+*****************************
+Add a LocalizedLabel component to the UIText. Select from the file/group from the drop down. Select the string key from the second drop down.
+
+*****************************
+Dynamic Text Usage
+*****************************
+
+LocalizationService.Instance.Get("key");
+
+*****************************
+Language Changed Event
+*****************************
+//Via Messenger
+
+	[Subscribe]
+	void OnLanguageChanged(Localizer obj){
+	}
+
+	
+*****************************
+Batch Dynamic Text
+*****************************
+
+	[Localized("Key"]
+	public string MyString {get;set;}
+	[Localized("Key2"]
+	public string MyString2 {get;set;}
+	[Localized("Key3"]
+	public string MyString3 {get;set;}
+
+	void Awake(){
+		Injector.GetFirst<LocalizationService>.LocalizeMembers(this);
+	}

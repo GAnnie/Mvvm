@@ -1,0 +1,2 @@
+String1, Bonjour Les Ami
+String2, Localisation

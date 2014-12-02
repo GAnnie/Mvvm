@@ -1,0 +1,137 @@
+# Foundation Tasks (v3.0)
+
+Nicholas Ventimiglia | AvariceOnline.com
+
+## Asynchronous Task Library for Unity
+
+The goal of this library to  simplify asynchronous operations on Unity 3D game engine by encapsulating these operations into 'tasks' similar to what is found in .net 4's TPL.
+
+ - Tasks support running on the main thread, background thread or as coroutines.
+ - Tasks support return results. 
+ - Wait for your tasks to complete in a coroutine or as a thread blocking call
+ - Grace full exception handling (IsFaulted ?)
+ - Tests included
+ 
+ 
+
+## Use
+
+**Run
+Tasks have a static factory "Run" method which will create a new task in that started state. This method has overrides for every conscionable situation.
+You may also construct a task yourself and start it yourself.
+
+**Strategy
+Taks have a number of strategies you can choose from.
+ - Run in Background thread
+ - Run in a coroutine via the task manager
+ - Run in the current thread
+ - Run on the main thread
+ - Run a custom strategy. This is useful if you want to manually set the task's state, result and exception. 
+  
+**ContinueWith
+ContinueWith is a extension method which allows you to execute a piece of code after the task is complete. This is useful with the coroutine strategy
+as a way to populate the Result property. You may chain multiple continue with's
+
+**Wait
+- Wait will hault the thread until the task is complete. Only call this from a background thread. DO NO CALL THIS IN THE MAIN THREAD (it will cause lag).
+- WaitRoutine is a Coroutine that you may start. This routine will continue until the task is complete. Use this in the main thread.
+
+**TaskManager
+The task manager is a monobehaviour which interfaces the task's with unity. It is responsible for executing on the main thread and running coroutines.
+You dont need to add this object to your scene, it is added automatically.
+
+## Debugging
+
+Debugging in background threads is really hard. Simply put, you incomplete stack traces. To resolve this I have a static flag to disable background threads. This will cause Unity
+to act funny (pausing the main thread), but, you will get a complete stack trace.
+
+````c#
+    /// <summary>
+    /// Forces use of a single thread for debugging
+    /// </summary>
+    public static bool DisableMultiThread = false;
+
+    /// <summary>
+    /// Logs Exceptions
+    /// </summary>
+    public static bool LogErrors = false;
+
+````
+
+## Examples
+
+```c#
+		IEnumerator HowToUse()
+        {
+			// Pass in an action, function, method or coroutine
+            var task = Task.Run(() =>
+            {
+				//Debug.Log does not work in
+                Logger.Log("Sleeping...");
+                Task.Delay(2000);
+                Logger.Log("Slept");
+            });
+
+			// wait for it
+            yield return StartCoroutine(task.WaitRoutine());
+
+			// check exceptions
+			if(task.IsFaulted)
+				Debug.LogException(task.Exception)
+
+			//Valid if this method returned something
+			//var result = task.Result;
+
+        }
+		
+		// Run a Task on the main thread
+        Task.RunOnMain(() =>
+        {
+            Debug.Log("Sleeping...");
+            Task.Delay(2000);
+            Debug.Log("Slept");
+        });
+        
+
+		// Run a Task on a background thread
+        Task.Run(() =>
+        {
+            Logger.Log("("Sleeping...");
+            Task.Delay(2000);
+            Logger.Log("("Slept");
+        });
+        
+
+		// Run a coroutine as a tasks
+		Task.RunCoroutine(RoutineFunction());
+        
+		IEnumerator RoutineFunction(){
+			Logger.LogOutput("Sleeping...");
+			yield return new WaitForSeconds(2);
+			Logger.LogOutput("Slept");
+		}
+       
+		// Run a background task that then runs a task on the main thread
+		Task.Run(() =>
+		{
+			Logger.Log("("Thread A Sleep");
+			Task.Delay(2000);
+			Logger.Log("("Thread A Awake");
+			Task.RunOnMain(() =>
+			{
+				Debug.Log("Sleeping...");
+				Task.Delay(2000);
+				Debug.Log("Slept");
+			});
+			Logger.Log("Thread B By");
+		});     
+		
+		// Run a coroutine with a task as the parameter (useful for exceptions)
+		Task.RunCoroutine<string>(RoutineFunction());
+        
+		IEnumerator RoutineFunction(Task<string> task){
+
+			// manually set State / Exception / Result
+		}
+   
+```

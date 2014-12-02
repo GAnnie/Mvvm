@@ -1,0 +1,18 @@
+// Foundation.Core.LocalizationService Configuration CSV format 
+// Language, Abbreviation, (optional) Default
+// ie
+// English,en,Default
+// Spanish,es
+English,en,Default
+Chinese,zh
+Dutch,nl
+French,fr
+German,de
+Greek,el
+Italian,it
+Polish,pl
+Portuguese,pt
+Russian,ru
+Spanish,es
+Turkish,tr
+Ukrainian,uk

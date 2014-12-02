@@ -1,0 +1,7 @@
+// Foundation Lobby Configuration, JsonFormat
+
+{
+	"ScoresOrderAscending"		: false,
+	"EnableMobileHosting"		: true,
+	"LevelsResourcesFolder"		: "Levels/"
+}

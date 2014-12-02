@@ -1,0 +1,7 @@
+﻿****************************
+Foundation Android Player Settings
+****************************
+
+Make sure your Android Api Level is 9 or greater
+
+Make sure your publish settings have Internet Access set to Required

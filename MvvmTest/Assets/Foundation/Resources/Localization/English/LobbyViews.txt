@@ -1,0 +1,40 @@
+LobbyViews.Confirm,Confirm
+LobbyViews.Reject,Reject
+LobbyViews.WelcomeTitle,Welcome
+LobbyViews.SignIn,Sign In
+LobbyViews.SignUp,Sign Up
+LobbyViews.Recover,Recover Account
+LobbyViews.Busy,Loading...
+LobbyViews.Username,Username
+LobbyViews.Email,Email
+LobbyViews.Password,Password
+LobbyViews.Token,Token
+LobbyViews.Update,Update Account
+LobbyViews.Submit,Submit
+LobbyViews.Back,Back
+LobbyViews.Cancel,Cancel
+LobbyViews.GoGetToken,A validation token was emailed to you.
+LobbyViews.SkipSignup,Skip Signup
+LobbyViews.PortraitTitle,Choose Your Portrait
+LobbyViews.LoadFromWeb,Load From Web
+LobbyViews.Gravatar,Gravatar
+LobbyViews.Options,Options
+LobbyViews.Levels,Level Selection
+LobbyViews.RandomLevel,Random Level
+LobbyViews.Search,Search
+LobbyViews.Leaderboard,Leaderboard
+LobbyViews.Multiplayer,Play Online
+LobbyViews.StartHost,Start Host
+LobbyViews.Disconnect,Disconnect
+LobbyViews.FindGame,Find Games
+LobbyViews.Self,Self
+LobbyViews.Host,Host
+LobbyViews.NoGames,No Games Found. Go Start one !
+LobbyViews.Offline,Offline Mode. No data available.
+LobbyViews.Continue,Continue
+LobbyViews.RestartLevel,RestartLevel
+LobbyViews.QuitLevel,QuitLevel
+LobbyViews.ConnectionLost,Connection Lost
+LobbyViews.ConnectionLostInfo,Connection to the game host was lost.
+LobbyViews.Migrating,Migrating to new Host...
+LobbyViews.ReturnToLobby,Return to Lobby

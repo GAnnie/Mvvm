@@ -1,0 +1,52 @@
+*****************************
+Unity3d Foundation Log
+*****************************
+
+___________________________________
+3.0.7	2014/10/30
+
+Fix to resolve hard to replicate 500 error.
+- Reverted to using WWW class. 
+- Storage now uses api vs 2. a Post only rest api.
+- HTTPTasks now include more detailed error information
+
+___________________________________
+3.0.6	2014/10/21
+
+Fixed an issue when using PUN.
+
+___________________________________
+3.0.5	2014/10/17
+
+Fixed an issue when logging off on IOS
+Fixed sizing for the IPAD
+
+___________________________________
+3.0.4	2014/10/11
+
+Updated to beta 4.6 20 (With InputField Fixes !)
+
+___________________________________
+3.0.3	2014/09/23
+
+Updated to beta 4.6 19 (With Scroll Fixes !)
+Enabled scrollbars.
+Added RoomDisconnecting Message. This is called before Disconnected. Use to handle migration and such.
+Added a DisconnectedView. By default to shows during gameplay levels only.
+added CloudCache.AddCollection/RemoveCollection methods for bulk object caching.
+Added 3 load options for the LobbyController : Online Mode, Offline Mode and Delete All.
+	- Online Mode uses and trys cloud services. Use this in production.
+	- Offline mode only uses a local cache. Use this in testing.
+	- Delete all clears player prefs on awake. Use this for testing.
+
+___________________________________
+3.0.2	2014/08/23		Init
+
+Added UpdateDelta command to CloudStorage. This allows for increment / decrement operations.
+Added UpdateProperty command to CloudStorage. This allows for updating of a single property.
+
+___________________________
+3.0.0	2014/06/23		Init
+
+Foundation 3 initial release
+

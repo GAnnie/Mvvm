@@ -1,0 +1,40 @@
+LobbyViews.Confirm,Bevestigen
+LobbyViews.Reject,Weigeren
+LobbyViews.WelcomeTitle,Welkom
+LobbyViews.SignIn,Teken In
+LobbyViews.SignUp,Aanmelden
+LobbyViews.Recover,Herstellen Account
+LobbyViews.Busy,Bezig met laden...
+LobbyViews.Username,Gebruikersnaam
+LobbyViews.Email,E-mail
+LobbyViews.Password,Wachtwoord
+LobbyViews.Token,Token
+LobbyViews.Update,Account Bijwerken
+LobbyViews.Submit,Verzenden
+LobbyViews.Back,Terug
+LobbyViews.Cancel,Annuleren
+LobbyViews.GoGetToken,Een validatie token is naar u gemaild.
+LobbyViews.SkipSignup,Overslaan Signup
+LobbyViews.PortraitTitle,Kies Uw Portret
+LobbyViews.LoadFromWeb,De Belasting Van Het Web
+LobbyViews.Gravatar,Gravatar
+LobbyViews.Options,Opties
+LobbyViews.Levels,Level Selectie
+LobbyViews.RandomLevel,Willekeurig Niveau
+LobbyViews.Search,Zoeken
+LobbyViews.Leaderboard,Leaderboard
+LobbyViews.Multiplayer,Online Spelen
+LobbyViews.StartHost,Start Host
+LobbyViews.Disconnect,Koppel
+LobbyViews.FindGame,Spelletjes
+LobbyViews.Self,Zelf
+LobbyViews.Host,Host
+LobbyViews.NoGames,Geen Games Gevonden. Ga van Start !
+LobbyViews.Offline,De Offline Modus. Geen gegevens beschikbaar.
+LobbyViews.Continue,Doorgaan
+LobbyViews.RestartLevel,RestartLevel
+LobbyViews.QuitLevel,QuitLevel
+LobbyViews.ConnectionLost,Verbinding Verbroken
+LobbyViews.ConnectionLostInfo,Verbinding met de game host was verloren.
+LobbyViews.Migrating,Migreren naar een nieuwe Host...
+LobbyViews.ReturnToLobby,Terug naar Lobby

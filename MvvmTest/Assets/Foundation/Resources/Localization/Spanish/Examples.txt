@@ -1,0 +1,2 @@
+String1, Hola Amigo
+String2, Localización

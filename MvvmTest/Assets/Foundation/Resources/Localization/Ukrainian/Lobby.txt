@@ -1,0 +1,56 @@
+Lobby.AccountWelcome,"Ласкаво просимо, {0}"
+Lobby.QuitGameLabel,Вийти З Гри
+Lobby.SignOutLabel,Вихід
+Lobby.PortraitWebTitle, Завантажити з веб
+Lobby.PortraitWebSubtitle, Введіть URL-адресу
+Lobby.Leaderboard, Лідер Ради
+Lobby.ProfilesSearchTitle, Пошук Гравця
+Lobby.ProfilesSearchSubTitle, Введення імені гравця
+Lobby.HasConnected,{0} був підключений,
+Lobby.HasDisconnected,{0} був відключений
+Lobby.SignUpFailed,Signup failed
+Lobby.NameInputTitle,Username
+Lobby.NameInputSubTitle,Ввести ваш псевдонім.
+Lobby.OfflineMode,Грати В Автономному Режимі
+Lobby.LoadFailed,Помилка З'єднання
+Lobby.AccountLoadFailed,Помилка У Підписі
+Lobby.ProfileLoadFailed,Помилка Завантаження Профілю
+Lobby.LoadFailedSub,Сталася помилка при підключенні до бази даних.
+Lobby.Retry,Повторити
+Lobby.Cancel,Скасування
+Lobby.Accept,Приймаємо
+Lobby.Reject,Відхилити
+Lobby.NameInvalid,Username is invalid
+Lobby.SoundLabel,Гучність Звуку
+Lobby.MusicLabel,Гучність Музики
+Lobby.UIVolumeLabel,UI-обсяг
+Lobby.UpdateTitle,Зв'язок / Оновлення Облікового Запису
+Lobby.UpdateLabel,Оновлення
+Lobby.CensorLabel,Цензор
+Lobby.CensorTitle,Фільтр Поганий Мову
+Lobby.InNetworkError,Вже в мережі
+Lobby.ConnectionFailure,Помилка Підключення
+Lobby.MasterServerFailure,MasterServer Недостатності
+Lobby.PortInUse,Мережевий порт вже використовується.
+Lobby.HostFull,Хост-це повна.
+Lobby.ConnectionLostText,Connection Lost
+Lobby.ConnectionLostExplaination,Хост відключився ігри
+Lobby.TimeoutError,Помилка часу очікування. Спробуйте ще раз.
+Lobby.CanNotHost,Можете не розміщувати.
+Lobby.NoGamesFound,Не міг знайти гру, щоб приєднатися до
+Lobby.RegistrationFailedGameName,Registration Failed : Invalid GameName
+Lobby.RegistrationFailedGameType,Registration Failed : Invalid GameType
+Lobby.RegistrationFailedNoServer,Registration Failed : No Server
+Lobby.Connected,Підключений до мережі
+Lobby.Disconnected,Вимкнено
+Lobby.Offline,Автономний Режим. Не вдалося підключитися.
+Lobby.Unauthenticated,Не увійшли. Відмовлено в доступі.
+Lobby.UpdateSuccess,Рахунок оновлюється. Спасибі !
+Lobby.ServerFull,Сервер Повний. Спробуйте ще раз трохи.
+Lobby.NetworkFull,Мережі Повно. Спробуйте ще раз трохи.
+Lobby.CreateGameFailed,Не вдалося створити гру.
+Lobby.JoinGameFailed,Не вдалося приєднатися до гри.
+Lobby.SecurityError,Порушення Безпеки. Відмовлено в доступі.
+Lobby.InvalidRegion,Невірний Регіон
+Lobby.InvalidAuthentication,Invalid Authentication. Відмовлено в доступі.
+Lobby.InternalError,Внутрішня Помилка
