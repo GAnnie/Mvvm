@@ -1,2 +1,0 @@
-String1, Merhaba Arkadaş
-String2, Yerelleştirme

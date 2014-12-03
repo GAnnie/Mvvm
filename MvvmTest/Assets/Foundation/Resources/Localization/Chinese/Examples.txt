@@ -1,2 +1,0 @@
-String1, 你好朋友
-String2, 本地化

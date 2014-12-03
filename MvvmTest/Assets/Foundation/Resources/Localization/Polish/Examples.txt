@@ -1,2 +1,0 @@
-String1, Witaj Przyjacielu
-String2, Lokalizacja

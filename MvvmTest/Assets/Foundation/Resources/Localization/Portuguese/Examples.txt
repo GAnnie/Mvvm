@@ -1,2 +1,0 @@
-String1, Olá Amigo
-String2, Localização

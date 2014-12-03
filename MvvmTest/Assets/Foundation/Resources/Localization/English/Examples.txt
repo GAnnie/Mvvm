@@ -1,2 +1,0 @@
-﻿String1, Hello Friend
-String2, Localization
